@@ -4,9 +4,9 @@ import os
 import random
 
 if getattr(sys, 'frozen', False):
-    APP_PATH = os.path.dirname(sys.executable)
+    APP_PATH: str = os.path.dirname(sys.executable)
 elif __file__:
-    APP_PATH = os.path.dirname(__file__)
+    APP_PATH: str = os.path.dirname(__file__)
 else:
     APP_PATH: str = "C:"
 APP_PATH = APP_PATH.replace("\\", "/")
