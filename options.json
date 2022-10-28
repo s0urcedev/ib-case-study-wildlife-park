@@ -1,0 +1,49 @@
+{
+    "tickets": {
+        "name":"Ticket types",
+        "types": [
+            {
+                "name": "one adult",
+                "cost_for_one_day": 20.00,
+                "cost_for_two_days": 30.00
+            },
+            {
+                "name": "one child (an adult may bring up to two children)",
+                "cost_for_one_day": 12.00,
+                "cost_for_two_days": 18.00
+            },
+            {
+                "name": "one adult",
+                "cost_for_one_day": 16.00,
+                "cost_for_two_days": 24.00
+            },
+            {
+                "name": "family ticket (up to two adults or seniors, and three children",
+                "cost_for_one_day": 60.00,
+                "cost_for_two_days": 90.00
+            },
+            {
+                "name": "groups of six people or more, price per person",
+                "cost_for_one_day": 15.00,
+                "cost_for_two_days": 22.50
+            }
+        ]
+    },
+    "extra": {
+        "name": "Extra attraction",
+        "types": [
+            {
+                "name": "lion feeding",
+                "cost": 2.50
+            },
+            {
+                "name": "penguin feeding",
+                "cost": 2.00
+            },
+            {
+                "name": "evening barbecue (two-day tickets only)",
+                "cost": 5.00
+            }
+        ]
+    }
+}
